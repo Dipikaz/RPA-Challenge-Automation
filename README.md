@@ -79,20 +79,45 @@ This project shows how to **design stable, maintainable, and realistic tests** i
 
 ## 6. Sample Automation Snippet
 
-```python
-from playwright.sync_api import Page, expect
 
-def test_empty_form_submission(page: Page):
-    page.goto("https://rpachallenge.com/")
-    page.get_by_role("button", name="Start Challenge").click()
-    
-    # Wait for dynamic form
-    expect(page.get_by_role("form")).to_be_visible()
-    
-    # Click submit without filling fields
-    page.get_by_role("button", name="Submit").click()
-    
-    # Validate error message
-    expect(page.get_by_text("Error", exact=True)).to_be_visible()
+
+
+
+
+
+##7. Skills Demonstrated
+
+Handling dynamic UI and preventing brittle tests
+Writing resilient positive & negative tests
+Applying chaos testing for unexpected user actions
+Preventing flaky failures using auto-waits and robust locators
+Designing a scalable framework with POM
+Running tests in parallel and preparing them for CI/CD pipelines
+
+
+
+8. How to Run the Tests
+
+1. Clone the repository:
+ git clone https://github.com/<your-username>/rpa-challenge-automation.git
+
+2. Navigate to the project folder:
+   cd rpa-challenge-automation
+
+3. Install dependencies:
+ pip install -r requirements.txt
+ playwright install
+
+
+
+
+
+
+
+
+
+
+
+
 
 
