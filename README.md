@@ -78,7 +78,7 @@ This project shows how to **design stable, maintainable, and realistic tests** i
 
 
 ## 6. Sample Automation Snippet
-
+  
 
 
 
