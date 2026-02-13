@@ -84,9 +84,7 @@ This project shows how to **design stable, maintainable, and realistic tests** i
 
 
 
-
-##7. Skills Demonstrated
-
+# 7. Skills Demonstrated 
 Handling dynamic UI and preventing brittle tests
 Writing resilient positive & negative tests
 Applying chaos testing for unexpected user actions
@@ -96,17 +94,19 @@ Running tests in parallel and preparing them for CI/CD pipelines
 
 
 
-8. How to Run the Tests
 
+## 6. How to Run Testcases
 1. Clone the repository:
- git clone https://github.com/<your-username>/rpa-challenge-automation.git
+   git clone https://github.com/<your-username>/rpa-challenge-automation.git
 
 2. Navigate to the project folder:
    cd rpa-challenge-automation
 
 3. Install dependencies:
- pip install -r requirements.txt
- playwright install
+   pip install -r requirements.txt
+   playwright install
+4. Run tests (example with pytest):
+   pytest tests/
 
 
 
