@@ -84,7 +84,7 @@ This project shows how to **design stable, maintainable, and realistic tests** i
 
 
 
-# 7. Skills Demonstrated 
+## 7. Skills Demonstrated 
 Handling dynamic UI and preventing brittle tests
 Writing resilient positive & negative tests
 Applying chaos testing for unexpected user actions
