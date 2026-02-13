@@ -95,7 +95,7 @@ Running tests in parallel and preparing them for CI/CD pipelines
 
 
 
-## 6. How to Run Testcases
+## 8. How to Run Testcases
 1. Clone the repository:
    git clone https://github.com/<your-username>/rpa-challenge-automation.git
 
